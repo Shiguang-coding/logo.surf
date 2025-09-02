@@ -1,0 +1,91 @@
+{
+  "lang": "ja",
+  "meta": {
+    "title": "Logo.Surf - テキストからロゴ＆ファビコン生成",
+    "description": "テキストから数秒でプロフェッショナルなロゴとファビコンを作成。無料オンラインツールで即座にプレビュー、複数形式、カスタマイズ可能なデザイン。",
+    "keywords": "ロゴ生成, テキストからロゴ, ファビコン生成, 無料ロゴ作成, ブランドデザイン, ロゴ作成, ファビコン作成"
+  },
+  "header": {
+    "tagline": "テキストからロゴ＆ファビコン",
+    "subtitle": "数秒でプロフェッショナルなロゴとファビコンを作成"
+  },
+  "features": {
+    "ship_fast": "高速",
+    "professional": "プロフェッショナル",
+    "totally_free": "完全無料"
+  },
+  "cta": {
+    "generate_now": "今すぐロゴ＆ファビコンを生成",
+    "view_source": "GitHubでソースコードを表示"
+  },
+  "generator": {
+    "try_now": "今すぐ試す",
+    "settings": "設定",
+    "text_label": "テキスト",
+    "emoji_support": "🚀や💡などの絵文字がサポートされています",
+    "size": "サイズ",
+    "radius": "角丸",
+    "background_color": "背景色",
+    "font_family": "フォント",
+    "select_font": "フォントを選択",
+    "font_weight": "フォントの太さ",
+    "normal": "標準",
+    "bold": "太字",
+    "text_color": "テキストの色",
+    "vertical_position": "垂直位置の微調整",
+    "reset_default": "デフォルトにリセット",
+    "generate_favicons": "ファビコンを生成",
+    "recommended_schemes": "推奨カラースキーム",
+    "preview": "プレビュー",
+    "download_png": "PNGをダウンロード",
+    "download_svg": "SVGをダウンロード",
+    "download_zip": "すべてをダウンロード（ZIP）",
+    "zip_contents": "すべてをダウンロード（ZIP）には複数サイズのPNGファイル（16x16から512x512）、SVGファイル、すべてのブラウザ用ファビコンファイルが含まれます",
+    "tip_emoji": "ヒント：絵文字の場合、完璧な配置のために垂直位置を調整する必要がある場合があります",
+    "png_optimization": "追加のPNG最適化には、TinyPNGやImageOptimなどのツールをお試しください",
+    "favicon_html": "ファビコンHTMLコード",
+    "test_favicon": "ファビコンが正しく動作するかテストするには、ファイルをウェブサイトにアップロードしてページを訪問してください",
+    "copy_html": "HTMLコードをコピー"
+  },
+  "gallery": {
+    "title": "ロゴの例",
+    "emoji_note": "注意：絵文字の表示は異なるオペレーティングシステムやブラウザで異なる場合があります",
+    "brand_copyright": "表示されているブランドロゴはそれぞれの所有者の商標であり、デモンストレーション目的でのみ使用されています"
+  },
+  "features_section": {
+    "title": "機能",
+    "multiple_formats": "複数形式",
+    "multiple_formats_desc": "PNG、SVG、ICOファイルを含む様々なファビコン形式でロゴ＆ファビコンを生成",
+    "customization": "カスタマイズ",
+    "customization_desc": "色、フォント、サイズ、配置を簡単にカスタマイズして、ブランドに完璧にマッチ",
+    "instant_preview": "即座にプレビュー",
+    "instant_preview_desc": "設定を調整しながらロゴとファビコンの変更をリアルタイムで確認"
+  },
+  "faq": {
+    "title": "よくある質問",
+    "what_is_logosurf": "Logo.surfとは何ですか？",
+    "what_is_logosurf_answer": "Logo.surfは、テキストをプロフェッショナルなロゴとファビコンに変換する無料のオンラインツールです。テキストを入力し、デザインをカスタマイズして、ファイルを即座にダウンロードできます。",
+    "ai_question": "Logo.surfはAI技術を使用していますか？",
+    "ai_answer": "現在、Logo.surfはAIを使用していません。フォント、色、サイズなどのデザイン要素を完全にコントロールできる直接的なテキストからロゴへのコンバーターです。",
+    "what_is_favicon": "ファビコンとは何ですか？",
+    "what_is_favicon_answer": "ファビコンは、ウェブサイトを表すためにブラウザタブ、ブックマーク、検索結果に表示される小さなアイコンです。ユーザーが一目でサイトを識別するのに役立ちます。",
+    "font_copyright": "フォントの著作権について",
+    "font_copyright_answer": "使用するフォントのライセンス条項を確認することが重要です。このツールで提供されるフォントは、一般的に商用利用が無料のウェブセーフフォントですが、特定の使用ケースについては常にライセンスを確認してください。",
+    "supported_characters": "どのような種類の文字がサポートされていますか？",
+    "supported_characters_answer": "ファビコンジェネレーターは、文字、数字、記号、絵文字を含むUTF-8文字をサポートしています。ただし、複雑な文字や絵文字は異なるデバイスで異なって表示される場合があります。",
+    "why_different_sizes": "なぜ異なるファビコンサイズが必要ですか？",
+    "why_different_sizes_answer": "異なるデバイスとプラットフォームには異なるファビコンサイズが必要です。例えば、iOSはホーム画面アイコンに180x180が必要で、ブラウザタブは通常16x16または32x32ピクセルを使用します。",
+    "how_to_add": "ウェブサイトにファビコンを追加するには？",
+    "how_to_add_answer": "提供されたHTMLコードをコピーして、ウェブサイトの<head>セクションに貼り付けてください。ファビコンファイルをウェブサイトのルートディレクトリまたはHTMLで指定されたパスにアップロードしてください。"
+  },
+  "languages": {
+    "title": "複数言語で利用可能",
+    "note": "上記または以下のリンクからお好みの言語を選択してください"
+  },
+  "footer": {
+    "follow_on_x": "Xでフォロー",
+    "disclaimer": "ユーザーは、ロゴやファビコンで使用するテキスト、フォント、その他の要素の使用権を確保する責任があります。",
+    "privacy_note": "個人情報は一切収集しません。すべての処理はブラウザ内で行われます。",
+    "license_note": "Creative Commons Attribution 4.0 International Licenseの下でライセンスされています"
+  }
+}

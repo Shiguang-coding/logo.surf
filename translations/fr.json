@@ -1,0 +1,91 @@
+{
+  "lang": "fr",
+  "meta": {
+    "title": "Logo.Surf - Générateur de Logo et Favicon à partir de Texte",
+    "description": "Créez des logos et favicons professionnels à partir de texte en quelques secondes. Outil en ligne gratuit avec aperçu instantané, plusieurs formats et designs personnalisables.",
+    "keywords": "générateur de logo, texte vers logo, générateur de favicon, créateur de logo gratuit, design de marque, création de logo, créateur de favicon"
+  },
+  "header": {
+    "tagline": "Texte vers Logo et Favicon",
+    "subtitle": "Créez des logos et favicons professionnels en quelques secondes"
+  },
+  "features": {
+    "ship_fast": "Rapide",
+    "professional": "Professionnel",
+    "totally_free": "Totalement Gratuit"
+  },
+  "cta": {
+    "generate_now": "Générez votre Logo et Favicon Maintenant",
+    "view_source": "Voir le code source sur GitHub"
+  },
+  "generator": {
+    "try_now": "Essayez maintenant",
+    "settings": "Paramètres",
+    "text_label": "Texte",
+    "emoji_support": "Les emojis sont pris en charge, comme 🚀 ou 💡",
+    "size": "Taille",
+    "radius": "Rayon",
+    "background_color": "Couleur d'Arrière-plan",
+    "font_family": "Famille de Police",
+    "select_font": "Sélectionner une police",
+    "font_weight": "Épaisseur de Police",
+    "normal": "Normal",
+    "bold": "Gras",
+    "text_color": "Couleur du Texte",
+    "vertical_position": "Ajuster la Position Verticale",
+    "reset_default": "Réinitialiser par Défaut",
+    "generate_favicons": "Générer des Favicons",
+    "recommended_schemes": "Schémas de Couleurs Recommandés",
+    "preview": "Aperçu",
+    "download_png": "Télécharger PNG",
+    "download_svg": "Télécharger SVG",
+    "download_zip": "Télécharger Tout (ZIP)",
+    "zip_contents": "Télécharger Tout (ZIP) inclut des fichiers PNG en plusieurs tailles (16x16 à 512x512), un fichier SVG et des fichiers favicon pour tous les navigateurs",
+    "tip_emoji": "Astuce : Pour les emojis, vous pourriez avoir besoin d'ajuster la position verticale pour un alignement parfait",
+    "png_optimization": "Pour une optimisation PNG supplémentaire, essayez des outils comme TinyPNG ou ImageOptim",
+    "favicon_html": "Code HTML du Favicon",
+    "test_favicon": "Pour tester si le favicon fonctionne correctement, téléchargez les fichiers sur votre site web et visitez la page",
+    "copy_html": "Copier le Code HTML"
+  },
+  "gallery": {
+    "title": "Exemples de Logos",
+    "emoji_note": "Note : Le rendu des emojis peut varier entre différents systèmes d'exploitation et navigateurs",
+    "brand_copyright": "Les logos de marque affichés sont des marques commerciales de leurs propriétaires respectifs et utilisés à des fins de démonstration uniquement"
+  },
+  "features_section": {
+    "title": "Fonctionnalités",
+    "multiple_formats": "Formats Multiples",
+    "multiple_formats_desc": "Générez des logos et favicons en PNG, SVG et divers formats de favicon incluant les fichiers ICO",
+    "customization": "Personnalisation",
+    "customization_desc": "Personnalisez facilement les couleurs, polices, tailles et positionnement pour correspondre parfaitement à votre marque",
+    "instant_preview": "Aperçu Instantané",
+    "instant_preview_desc": "Voyez les changements de votre logo et favicon en temps réel pendant que vous ajustez les paramètres"
+  },
+  "faq": {
+    "title": "Questions Fréquemment Posées",
+    "what_is_logosurf": "Qu'est-ce que Logo.surf ?",
+    "what_is_logosurf_answer": "Logo.surf est un outil en ligne gratuit qui convertit le texte en logos et favicons professionnels. Entrez simplement votre texte, personnalisez le design et téléchargez vos fichiers instantanément.",
+    "ai_question": "Logo.surf utilise-t-il la technologie IA ?",
+    "ai_answer": "Actuellement, Logo.surf n'utilise pas d'IA. C'est un convertisseur direct texte-vers-logo qui vous donne un contrôle complet sur les éléments de design comme les polices, couleurs et tailles.",
+    "what_is_favicon": "Qu'est-ce qu'un favicon ?",
+    "what_is_favicon_answer": "Un favicon est une petite icône qui apparaît dans les onglets de navigateur, signets et résultats de recherche pour représenter votre site web. Il aide les utilisateurs à identifier votre site en un coup d'œil.",
+    "font_copyright": "Qu'en est-il des droits d'auteur des polices ?",
+    "font_copyright_answer": "Il est important de vérifier les termes de licence de toute police que vous utilisez. Les polices fournies dans cet outil sont des polices web-safe qui sont généralement gratuites pour un usage commercial, mais vérifiez toujours la licence pour votre cas d'usage spécifique.",
+    "supported_characters": "Quels types de caractères sont pris en charge ?",
+    "supported_characters_answer": "Notre générateur de favicon prend en charge les caractères UTF-8, incluant lettres, chiffres, symboles et emojis. Cependant, les caractères complexes ou emojis peuvent s'afficher différemment sur différents appareils.",
+    "why_different_sizes": "Pourquoi ai-je besoin de différentes tailles de favicon ?",
+    "why_different_sizes_answer": "Différents appareils et plateformes nécessitent différentes tailles de favicon. Par exemple, iOS a besoin de 180x180 pour les icônes d'écran d'accueil, tandis que les onglets de navigateur utilisent typiquement 16x16 ou 32x32 pixels.",
+    "how_to_add": "Comment ajouter le favicon à mon site web ?",
+    "how_to_add_answer": "Copiez le code HTML fourni et collez-le dans la section <head> de votre site web. Assurez-vous de télécharger les fichiers favicon dans le répertoire racine de votre site web ou le chemin spécifié dans le HTML."
+  },
+  "languages": {
+    "title": "Disponible en Plusieurs Langues",
+    "note": "Sélectionnez votre langue préférée ci-dessus ou à partir des liens ci-dessous"
+  },
+  "footer": {
+    "follow_on_x": "Suivez-nous sur X",
+    "disclaimer": "Les utilisateurs sont responsables de s'assurer qu'ils ont les droits d'utiliser tout texte, police ou autres éléments dans leurs logos et favicons.",
+    "privacy_note": "Nous ne collectons aucune information personnelle. Tout le traitement se fait dans votre navigateur.",
+    "license_note": "Sous licence Creative Commons Attribution 4.0 International"
+  }
+}

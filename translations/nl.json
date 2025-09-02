@@ -1,0 +1,91 @@
+{
+  "lang": "nl",
+  "meta": {
+    "title": "Logo.Surf - Tekst naar Logo & Favicon Generator",
+    "description": "Creëer professionele logo's en favicons uit tekst in seconden. Gratis online tool met directe preview, meerdere formaten en aanpasbare ontwerpen.",
+    "keywords": "logo generator, tekst naar logo, favicon generator, gratis logo maker, merkontwerp, logo creatie, favicon maker"
+  },
+  "header": {
+    "tagline": "Tekst naar Logo & Favicon",
+    "subtitle": "Creëer professionele logo's & favicons in seconden"
+  },
+  "features": {
+    "ship_fast": "Snel",
+    "professional": "Professioneel",
+    "totally_free": "Volledig Gratis"
+  },
+  "cta": {
+    "generate_now": "Genereer Nu Uw Logo & Favicon",
+    "view_source": "Bekijk broncode op GitHub"
+  },
+  "generator": {
+    "try_now": "Probeer het nu",
+    "settings": "Instellingen",
+    "text_label": "Tekst",
+    "emoji_support": "Emoji's worden ondersteund, zoals 🚀 of 💡",
+    "size": "Grootte",
+    "radius": "Radius",
+    "background_color": "Achtergrondkleur",
+    "font_family": "Lettertype Familie",
+    "select_font": "Selecteer lettertype",
+    "font_weight": "Lettertype Dikte",
+    "normal": "Normaal",
+    "bold": "Vet",
+    "text_color": "Tekstkleur",
+    "vertical_position": "Verticale Positie Aanpassen",
+    "reset_default": "Reset naar Standaard",
+    "generate_favicons": "Favicons Genereren",
+    "recommended_schemes": "Aanbevolen Kleurschema's",
+    "preview": "Voorbeeld",
+    "download_png": "Download PNG",
+    "download_svg": "Download SVG",
+    "download_zip": "Download Alles (ZIP)",
+    "zip_contents": "Download Alles (ZIP) bevat PNG-bestanden in meerdere maten (16x16 tot 512x512), SVG-bestand en favicon-bestanden voor alle browsers",
+    "tip_emoji": "Tip: Voor emoji's moet u mogelijk de verticale positie aanpassen voor perfecte uitlijning",
+    "png_optimization": "Voor extra PNG-optimalisatie, probeer tools zoals TinyPNG of ImageOptim",
+    "favicon_html": "Favicon HTML Code",
+    "test_favicon": "Om te testen of de favicon correct werkt, upload de bestanden naar uw website en bezoek de pagina",
+    "copy_html": "Kopieer HTML Code"
+  },
+  "gallery": {
+    "title": "Logo Voorbeelden",
+    "emoji_note": "Let op: Emoji-weergave kan variëren tussen verschillende besturingssystemen en browsers",
+    "brand_copyright": "Getoonde merklogo's zijn handelsmerken van hun respectievelijke eigenaren en worden alleen gebruikt voor demonstratiedoeleinden"
+  },
+  "features_section": {
+    "title": "Functies",
+    "multiple_formats": "Meerdere Formaten",
+    "multiple_formats_desc": "Genereer logo's & favicons in PNG, SVG en verschillende favicon-formaten inclusief ICO-bestanden",
+    "customization": "Aanpassing",
+    "customization_desc": "Pas eenvoudig kleuren, lettertypen, maten en positionering aan om perfect bij uw merk te passen",
+    "instant_preview": "Directe Preview",
+    "instant_preview_desc": "Zie veranderingen in uw logo en favicon in realtime terwijl u de instellingen aanpast"
+  },
+  "faq": {
+    "title": "Veelgestelde Vragen",
+    "what_is_logosurf": "Wat is Logo.surf?",
+    "what_is_logosurf_answer": "Logo.surf is een gratis online tool die tekst omzet naar professionele logo's en favicons. Voer simpelweg uw tekst in, pas het ontwerp aan en download uw bestanden direct.",
+    "ai_question": "Gebruikt Logo.surf AI-technologie?",
+    "ai_answer": "Momenteel gebruikt Logo.surf geen AI. Het is een directe tekst-naar-logo converter die u volledige controle geeft over ontwerpelementen zoals lettertypen, kleuren en maten.",
+    "what_is_favicon": "Wat is een favicon?",
+    "what_is_favicon_answer": "Een favicon is een klein pictogram dat verschijnt in browsertabbladen, bladwijzers en zoekresultaten om uw website te vertegenwoordigen. Het helpt gebruikers uw site in één oogopslag te herkennen.",
+    "font_copyright": "Hoe zit het met lettertype auteursrechten?",
+    "font_copyright_answer": "Het is belangrijk om de licentievoorwaarden van elk lettertype dat u gebruikt te controleren. De lettertypen die in deze tool worden aangeboden zijn web-safe lettertypen die over het algemeen gratis zijn voor commercieel gebruik, maar controleer altijd de licentie voor uw specifieke gebruikscase.",
+    "supported_characters": "Welke types karakters worden ondersteund?",
+    "supported_characters_answer": "Onze favicon-generator ondersteunt UTF-8 karakters, inclusief letters, cijfers, symbolen en emoji's. Complexe karakters of emoji's kunnen echter verschillend weergegeven worden op verschillende apparaten.",
+    "why_different_sizes": "Waarom heb ik verschillende favicon-maten nodig?",
+    "why_different_sizes_answer": "Verschillende apparaten en platforms vereisen verschillende favicon-maten. iOS heeft bijvoorbeeld 180x180 nodig voor startscherm-pictogrammen, terwijl browsertabbladen doorgaans 16x16 of 32x32 pixels gebruiken.",
+    "how_to_add": "Hoe voeg ik de favicon toe aan mijn website?",
+    "how_to_add_answer": "Kopieer de verstrekte HTML-code en plak deze in de <head> sectie van uw website. Zorg ervoor dat u de favicon-bestanden uploadt naar de hoofdmap van uw website of het pad dat in de HTML is gespecificeerd."
+  },
+  "languages": {
+    "title": "Beschikbaar in Meerdere Talen",
+    "note": "Selecteer uw gewenste taal hierboven of via de onderstaande links"
+  },
+  "footer": {
+    "follow_on_x": "Volg ons op X",
+    "disclaimer": "Gebruikers zijn verantwoordelijk voor het waarborgen dat zij de rechten hebben om tekst, lettertypen of andere elementen in hun logo's en favicons te gebruiken.",
+    "privacy_note": "We verzamelen geen persoonlijke informatie. Alle verwerking gebeurt in uw browser.",
+    "license_note": "Gelicenseerd onder de Creative Commons Attribution 4.0 International License"
+  }
+}

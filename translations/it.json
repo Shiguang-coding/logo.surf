@@ -1,0 +1,91 @@
+{
+  "lang": "it",
+  "meta": {
+    "title": "Logo.Surf - Generatore di Logo e Favicon da Testo",
+    "description": "Crea loghi e favicon professionali da testo in pochi secondi. Strumento online gratuito con anteprima istantanea, formati multipli e design personalizzabili.",
+    "keywords": "generatore di logo, testo in logo, generatore di favicon, creatore di logo gratuito, design del marchio, creazione logo, creatore favicon"
+  },
+  "header": {
+    "tagline": "Testo in Logo e Favicon",
+    "subtitle": "Crea loghi e favicon professionali in pochi secondi"
+  },
+  "features": {
+    "ship_fast": "Veloce",
+    "professional": "Professionale",
+    "totally_free": "Completamente Gratuito"
+  },
+  "cta": {
+    "generate_now": "Genera il tuo Logo e Favicon Ora",
+    "view_source": "Visualizza il codice sorgente su GitHub"
+  },
+  "generator": {
+    "try_now": "Prova ora",
+    "settings": "Impostazioni",
+    "text_label": "Testo",
+    "emoji_support": "Gli emoji sono supportati, come 🚀 o 💡",
+    "size": "Dimensione",
+    "radius": "Raggio",
+    "background_color": "Colore di Sfondo",
+    "font_family": "Famiglia di Font",
+    "select_font": "Seleziona font",
+    "font_weight": "Spessore Font",
+    "normal": "Normale",
+    "bold": "Grassetto",
+    "text_color": "Colore del Testo",
+    "vertical_position": "Regola Posizione Verticale",
+    "reset_default": "Ripristina Predefinito",
+    "generate_favicons": "Genera Favicon",
+    "recommended_schemes": "Schemi di Colore Consigliati",
+    "preview": "Anteprima",
+    "download_png": "Scarica PNG",
+    "download_svg": "Scarica SVG",
+    "download_zip": "Scarica Tutto (ZIP)",
+    "zip_contents": "Scarica Tutto (ZIP) include file PNG in più dimensioni (16x16 a 512x512), file SVG e file favicon per tutti i browser",
+    "tip_emoji": "Suggerimento: Per gli emoji, potrebbe essere necessario regolare la posizione verticale per un allineamento perfetto",
+    "png_optimization": "Per un'ottimizzazione PNG aggiuntiva, prova strumenti come TinyPNG o ImageOptim",
+    "favicon_html": "Codice HTML Favicon",
+    "test_favicon": "Per testare se il favicon funziona correttamente, carica i file sul tuo sito web e visita la pagina",
+    "copy_html": "Copia Codice HTML"
+  },
+  "gallery": {
+    "title": "Esempi di Loghi",
+    "emoji_note": "Nota: Il rendering degli emoji può variare tra diversi sistemi operativi e browser",
+    "brand_copyright": "I loghi di marca mostrati sono marchi registrati dei rispettivi proprietari e utilizzati solo a scopo dimostrativo"
+  },
+  "features_section": {
+    "title": "Caratteristiche",
+    "multiple_formats": "Formati Multipli",
+    "multiple_formats_desc": "Genera loghi e favicon in PNG, SVG e vari formati favicon inclusi file ICO",
+    "customization": "Personalizzazione",
+    "customization_desc": "Personalizza facilmente colori, font, dimensioni e posizionamento per adattarsi perfettamente al tuo marchio",
+    "instant_preview": "Anteprima Istantanea",
+    "instant_preview_desc": "Visualizza i cambiamenti del tuo logo e favicon in tempo reale mentre regoli le impostazioni"
+  },
+  "faq": {
+    "title": "Domande Frequenti",
+    "what_is_logosurf": "Cos'è Logo.surf?",
+    "what_is_logosurf_answer": "Logo.surf è uno strumento online gratuito che converte il testo in loghi e favicon professionali. Inserisci semplicemente il tuo testo, personalizza il design e scarica i tuoi file istantaneamente.",
+    "ai_question": "Logo.surf usa la tecnologia AI?",
+    "ai_answer": "Attualmente, Logo.surf non usa l'AI. È un convertitore diretto da testo a logo che ti dà controllo completo sugli elementi di design come font, colori e dimensioni.",
+    "what_is_favicon": "Cos'è un favicon?",
+    "what_is_favicon_answer": "Un favicon è una piccola icona che appare nelle schede del browser, nei segnalibri e nei risultati di ricerca per rappresentare il tuo sito web. Aiuta gli utenti a identificare il tuo sito a colpo d'occhio.",
+    "font_copyright": "Che dire del copyright dei font?",
+    "font_copyright_answer": "È importante controllare i termini di licenza di qualsiasi font che usi. I font forniti in questo strumento sono font web-safe che sono generalmente gratuiti per uso commerciale, ma verifica sempre la licenza per il tuo caso d'uso specifico.",
+    "supported_characters": "Che tipi di caratteri sono supportati?",
+    "supported_characters_answer": "Il nostro generatore di favicon supporta caratteri UTF-8, inclusi lettere, numeri, simboli ed emoji. Tuttavia, caratteri complessi o emoji potrebbero rendersi diversamente su dispositivi diversi.",
+    "why_different_sizes": "Perché ho bisogno di diverse dimensioni di favicon?",
+    "why_different_sizes_answer": "Dispositivi e piattaforme diversi richiedono diverse dimensioni di favicon. Ad esempio, iOS ha bisogno di 180x180 per le icone della schermata home, mentre le schede del browser tipicamente usano 16x16 o 32x32 pixel.",
+    "how_to_add": "Come aggiungo il favicon al mio sito web?",
+    "how_to_add_answer": "Copia il codice HTML fornito e incollalo nella sezione <head> del tuo sito web. Assicurati di caricare i file favicon nella directory root del tuo sito web o nel percorso specificato nell'HTML."
+  },
+  "languages": {
+    "title": "Disponibile in Più Lingue",
+    "note": "Seleziona la tua lingua preferita sopra o dai link qui sotto"
+  },
+  "footer": {
+    "follow_on_x": "Seguici su X",
+    "disclaimer": "Gli utenti sono responsabili di assicurarsi di avere i diritti per utilizzare qualsiasi testo, font o altri elementi nei loro loghi e favicon.",
+    "privacy_note": "Non raccogliamo alcuna informazione personale. Tutta l'elaborazione avviene nel tuo browser.",
+    "license_note": "Licenziato sotto la Licenza Internazionale Creative Commons Attribution 4.0"
+  }
+}

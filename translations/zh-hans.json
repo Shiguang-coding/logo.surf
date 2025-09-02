@@ -1,0 +1,91 @@
+{
+  "lang": "zh-hans",
+  "meta": {
+    "title": "Logo.Surf - 文字生成Logo及网站图标",
+    "description": "几秒钟内从文字创建专业Logo和网站图标。免费在线工具，提供即时预览、多种格式和可自定义设计。",
+    "keywords": "Logo生成器, 文字转Logo, 网站图标生成器, 免费Logo制作, 品牌设计, Logo创建, 图标制作"
+  },
+  "header": {
+    "tagline": "文字生成Logo及网站图标",
+    "subtitle": "几秒钟内创建专业Logo和网站图标"
+  },
+  "features": {
+    "ship_fast": "快速交付",
+    "professional": "专业",
+    "totally_free": "完全免费"
+  },
+  "cta": {
+    "generate_now": "立即生成您的Logo和网站图标",
+    "view_source": "在GitHub上查看源代码"
+  },
+  "generator": {
+    "try_now": "立即试用",
+    "settings": "设置",
+    "text_label": "文字",
+    "emoji_support": "支持表情符号，如 🚀 或 💡",
+    "size": "大小",
+    "radius": "圆角",
+    "background_color": "背景颜色",
+    "font_family": "字体",
+    "select_font": "选择字体",
+    "font_weight": "字体粗细",
+    "normal": "常规",
+    "bold": "粗体",
+    "text_color": "文字颜色",
+    "vertical_position": "微调垂直位置",
+    "reset_default": "重置为默认值",
+    "generate_favicons": "生成网站图标",
+    "recommended_schemes": "推荐配色方案",
+    "preview": "预览",
+    "download_png": "下载PNG",
+    "download_svg": "下载SVG",
+    "download_zip": "下载全部（ZIP）",
+    "zip_contents": "下载全部（ZIP）包含多种尺寸的PNG文件（16x16至512x512）、SVG文件以及适用于所有浏览器的网站图标文件",
+    "tip_emoji": "提示：使用表情符号时，您可能需要调整垂直位置以实现完美对齐",
+    "png_optimization": "如需进一步优化PNG，请尝试TinyPNG或ImageOptim等工具",
+    "favicon_html": "网站图标HTML代码",
+    "test_favicon": "要测试网站图标是否正常工作，请将文件上传到您的网站并访问页面",
+    "copy_html": "复制HTML代码"
+  },
+  "gallery": {
+    "title": "Logo示例",
+    "emoji_note": "注意：表情符号在不同操作系统和浏览器中的显示效果可能有所不同",
+    "brand_copyright": "所显示的品牌Logo为其各自所有者的商标，仅用于演示目的"
+  },
+  "features_section": {
+    "title": "功能特色",
+    "multiple_formats": "多种格式",
+    "multiple_formats_desc": "生成PNG、SVG和各种网站图标格式（包括ICO文件）的Logo和图标",
+    "customization": "自定义设计",
+    "customization_desc": "轻松自定义颜色、字体、大小和位置，完美匹配您的品牌风格",
+    "instant_preview": "即时预览",
+    "instant_preview_desc": "调整设置时实时查看Logo和网站图标的变化"
+  },
+  "faq": {
+    "title": "常见问题",
+    "what_is_logosurf": "什么是Logo.surf？",
+    "what_is_logosurf_answer": "Logo.surf是一个免费的在线工具，可将文字转换为专业的Logo和网站图标。只需输入文字、自定义设计，即可立即下载文件。",
+    "ai_question": "Logo.surf使用AI技术吗？",
+    "ai_answer": "目前，Logo.surf不使用AI。它是一个直接的文字转Logo转换器，让您完全控制字体、颜色和大小等设计元素。",
+    "what_is_favicon": "什么是网站图标？",
+    "what_is_favicon_answer": "网站图标是出现在浏览器标签、书签和搜索结果中代表您网站的小图标。它帮助用户一眼识别您的网站。",
+    "font_copyright": "字体版权如何处理？",
+    "font_copyright_answer": "检查所使用字体的许可条款很重要。此工具提供的字体是通常可免费用于商业用途的网页安全字体，但请务必验证您特定用例的许可证。",
+    "supported_characters": "支持哪些类型的字符？",
+    "supported_characters_answer": "我们的网站图标生成器支持UTF-8字符，包括字母、数字、符号和表情符号。但是，复杂字符或表情符号在不同设备上的显示效果可能有所不同。",
+    "why_different_sizes": "为什么需要不同尺寸的网站图标？",
+    "why_different_sizes_answer": "不同的设备和平台需要不同尺寸的网站图标。例如，iOS主屏幕图标需要180x180像素，而浏览器标签通常使用16x16或32x32像素。",
+    "how_to_add": "如何将网站图标添加到我的网站？",
+    "how_to_add_answer": "复制提供的HTML代码并粘贴到网站的<head>部分。确保将网站图标文件上传到网站根目录或HTML中指定的路径。"
+  },
+  "languages": {
+    "title": "支持多种语言",
+    "note": "在上方或下方链接中选择您偏好的语言"
+  },
+  "footer": {
+    "follow_on_x": "在X上关注我们",
+    "disclaimer": "用户有责任确保他们有权使用Logo和网站图标中的任何文字、字体或其他元素。",
+    "privacy_note": "我们不收集任何个人信息。所有处理都在您的浏览器中进行。",
+    "license_note": "采用知识共享署名4.0国际许可证授权"
+  }
+}

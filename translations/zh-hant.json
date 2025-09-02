@@ -1,0 +1,91 @@
+{
+  "lang": "zh-hant",
+  "meta": {
+    "title": "Logo.Surf - 文字生成Logo及網站圖標",
+    "description": "幾秒鐘內從文字創建專業Logo和網站圖標。免費線上工具，提供即時預覽、多種格式和可自訂設計。",
+    "keywords": "Logo生成器, 文字轉Logo, 網站圖標生成器, 免費Logo製作, 品牌設計, Logo創建, 圖標製作"
+  },
+  "header": {
+    "tagline": "文字生成Logo及網站圖標",
+    "subtitle": "幾秒鐘內創建專業Logo和網站圖標"
+  },
+  "features": {
+    "ship_fast": "快速交付",
+    "professional": "專業",
+    "totally_free": "完全免費"
+  },
+  "cta": {
+    "generate_now": "立即生成您的Logo和網站圖標",
+    "view_source": "在GitHub上檢視原始碼"
+  },
+  "generator": {
+    "try_now": "立即試用",
+    "settings": "設定",
+    "text_label": "文字",
+    "emoji_support": "支援表情符號，如 🚀 或 💡",
+    "size": "大小",
+    "radius": "圓角",
+    "background_color": "背景顏色",
+    "font_family": "字體",
+    "select_font": "選擇字體",
+    "font_weight": "字體粗細",
+    "normal": "常規",
+    "bold": "粗體",
+    "text_color": "文字顏色",
+    "vertical_position": "微調垂直位置",
+    "reset_default": "重置為預設值",
+    "generate_favicons": "生成網站圖示",
+    "recommended_schemes": "推薦配色方案",
+    "preview": "預覽",
+    "download_png": "下載PNG",
+    "download_svg": "下載SVG",
+    "download_zip": "下載全部（ZIP）",
+    "zip_contents": "下載全部（ZIP）包含多種尺寸的PNG檔案（16x16至512x512）、SVG檔案以及適用於所有瀏覽器的網站圖示檔案",
+    "tip_emoji": "提示：使用表情符號時，您可能需要調整垂直位置以實現完美對齊",
+    "png_optimization": "如需進一步優化PNG，請嘗試TinyPNG或ImageOptim等工具",
+    "favicon_html": "網站圖示HTML程式碼",
+    "test_favicon": "要測試網站圖示是否正常工作，請將檔案上傳到您的網站並造訪頁面",
+    "copy_html": "複製HTML程式碼"
+  },
+  "gallery": {
+    "title": "Logo示例",
+    "emoji_note": "注意：表情符號在不同作業系統和瀏覽器中的顯示效果可能有所不同",
+    "brand_copyright": "所顯示的品牌Logo為其各自擁有者的商標，僅用於示範目的"
+  },
+  "features_section": {
+    "title": "功能特色",
+    "multiple_formats": "多種格式",
+    "multiple_formats_desc": "生成PNG、SVG和各種網站圖示格式（包括ICO檔案）的Logo和圖示",
+    "customization": "自訂設計",
+    "customization_desc": "輕鬆自訂顏色、字體、大小和位置，完美符合您的品牌風格",
+    "instant_preview": "即時預覽",
+    "instant_preview_desc": "調整設定時即時檢視Logo和網站圖示的變化"
+  },
+  "faq": {
+    "title": "常見問題",
+    "what_is_logosurf": "什麼是Logo.surf？",
+    "what_is_logosurf_answer": "Logo.surf是一個免費的線上工具，可將文字轉換為專業的Logo和網站圖示。只需輸入文字、自訂設計，即可立即下載檔案。",
+    "ai_question": "Logo.surf使用AI技術嗎？",
+    "ai_answer": "目前，Logo.surf不使用AI。它是一個直接的文字轉Logo轉換器，讓您完全控制字體、顏色和大小等設計元素。",
+    "what_is_favicon": "什麼是網站圖示？",
+    "what_is_favicon_answer": "網站圖示是出現在瀏覽器分頁、書籤和搜尋結果中代表您網站的小圖示。它幫助使用者一眼識別您的網站。",
+    "font_copyright": "字體版權如何處理？",
+    "font_copyright_answer": "檢查所使用字體的授權條款很重要。此工具提供的字體是通常可免費用於商業用途的網頁安全字體，但請務必驗證您特定用例的授權。",
+    "supported_characters": "支援哪些類型的字元？",
+    "supported_characters_answer": "我們的網站圖示生成器支援UTF-8字元，包括字母、數字、符號和表情符號。但是，複雜字元或表情符號在不同裝置上的顯示效果可能有所不同。",
+    "why_different_sizes": "為什麼需要不同尺寸的網站圖示？",
+    "why_different_sizes_answer": "不同的裝置和平台需要不同尺寸的網站圖示。例如，iOS主畫面圖示需要180x180像素，而瀏覽器分頁通常使用16x16或32x32像素。",
+    "how_to_add": "如何將網站圖示新增到我的網站？",
+    "how_to_add_answer": "複製提供的HTML程式碼並貼上到網站的<head>部分。確保將網站圖示檔案上傳到網站根目錄或HTML中指定的路徑。"
+  },
+  "languages": {
+    "title": "支援多種語言",
+    "note": "在上方或下方連結中選擇您偏好的語言"
+  },
+  "footer": {
+    "follow_on_x": "在X上關注我們",
+    "disclaimer": "使用者有責任確保他們有權使用Logo和網站圖示中的任何文字、字體或其他元素。",
+    "privacy_note": "我們不收集任何個人資訊。所有處理都在您的瀏覽器中進行。",
+    "license_note": "採用創用CC姓名標示4.0國際授權條款"
+  }
+}
