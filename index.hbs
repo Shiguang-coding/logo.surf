@@ -61,8 +61,10 @@
           width: 30px;
           height: 30px;
           border: 1px solid #ccc;
+          border-radius: 4px;
           margin-right: 10px;
           cursor: pointer;
+          background-color: #fff;
       }
       .color-input {
           flex-grow: 1;
@@ -247,21 +249,21 @@
               <div class="mb-4">
                 <label for="text" class="block mb-2 text-gray-600">{{t.generator.text_label}}</label>
                 <input type="text" id="text" class="w-full border rounded px-3 py-2" value="AI">
-                <p class="text-xs text-gray-600 mt-2">{{t.generator.emoji_tip}} <a href="https://emojispark.com" target="_blank" class="inline-block underline">EmojiSpark.com</a>
+                <p class="text-xs text-gray-600 mt-2">{{t.generator.emoji_support}} <a href="https://emojispark.com" target="_blank" class="inline-block underline">EmojiSpark.com</a>
                 </p>
               </div>
               <div class="flex flex-wrap -mx-2 mb-4">
                 <div class="w-1/2 px-2">
-                  <label for="size" class="block mb-2 text-gray-600">{{t.generator.size_label}}</label>
+                  <label for="size" class="block mb-2 text-gray-600">{{t.generator.size}}</label>
                   <input type="number" id="size" class="w-full border rounded px-3 py-2" value="512" disabled>
                 </div>
                 <div class="w-1/2 px-2">
-                  <label for="radius" class="block mb-2 text-gray-600">{{t.generator.radius_label}}</label>
+                  <label for="radius" class="block mb-2 text-gray-600">{{t.generator.radius}}</label>
                   <input type="number" id="radius" class="w-full border rounded px-3 py-2" value="80">
                 </div>
               </div>
               <div class="mb-4">
-                <label for="bgColor" class="block mb-2 text-gray-600">{{t.generator.bg_color_label}}</label>
+                <label for="bgColor" class="block mb-2 text-gray-600">{{t.generator.background_color}}</label>
                 <div class="color-picker-wrapper">
                   <input type="color" id="bgColorPicker" class="hidden">
                   <div id="bgColorPreview" class="color-preview"></div>
@@ -269,11 +271,11 @@
                 </div>
               </div>
               <div class="mb-4">
-                <label for="fontFamily" class="block mb-2 text-gray-600">{{t.generator.font_family_label}}</label>
+                <label for="fontFamily" class="block mb-2 text-gray-600">{{t.generator.font_family}}</label>
                 <div class="flex">
                   <input type="text" id="fontFamily" class="w-2/3 border rounded-l px-3 py-2" placeholder="Enter font name or select" value="Arial">
                   <select id="fontFamilySelect" class="w-1/3 border border-l-0 rounded-r px-3 py-2">
-                    <option value="">{{t.font_options.select_font}}</option>
+                    <option value="">{{t.generator.select_font}}</option>
                     <option value="Arial">Arial</option>
                     <option value="Helvetica">Helvetica</option>
                     <option value="Times New Roman">Times New Roman</option>
@@ -292,15 +294,15 @@
               </div>
               <div class="gap-4 mb-4">
                 <div>
-                  <label for="fontWeight" class="block mb-2 text-gray-600">{{t.generator.font_weight_label}}</label>
+                  <label for="fontWeight" class="block mb-2 text-gray-600">{{t.generator.font_weight}}</label>
                   <select id="fontWeight" class="w-full border rounded px-3 py-2">
-                    <option value="normal">{{t.font_options.normal}}</option>
-                    <option value="bold">{{t.font_options.bold}}</option>
+                    <option value="normal">{{t.generator.normal}}</option>
+                    <option value="bold">{{t.generator.bold}}</option>
                   </select>
                 </div>
               </div>
               <div class="mb-6">
-                <label for="textColor" class="block mb-2 text-gray-600">{{t.generator.text_color_label}}</label>
+                <label for="textColor" class="block mb-2 text-gray-600">{{t.generator.text_color}}</label>
                 <div class="color-picker-wrapper">
                   <input type="color" id="textColorPicker" class="hidden">
                   <div id="textColorPreview" class="color-preview"></div>
@@ -308,16 +310,16 @@
                 </div>
               </div>
               <div class="mb-4">
-                <label for="verticalOffset" class="block mb-2 text-gray-600">{{t.generator.vertical_position_label}}</label>
+                <label for="verticalOffset" class="block mb-2 text-gray-600">{{t.generator.vertical_position}}</label>
                 <input type="range" id="verticalOffset" min="-30" max="30" value="0" step="1" class="w-full">
                 <span id="verticalOffsetValue" class="text-sm text-gray-500">0%</span>
               </div>
               <div class="flex flex-col sm:flex-row justify-between">
-                <button id="resetBtn" class="base-button mb-2 sm:mb-0">{{t.generator.reset_btn}}</button>
-                <button id="generateBtn" class="hidden bg-theme text-white px-4 py-2 rounded hover:bg-theme-dark">{{t.generator.generate_btn}}</button>
+                <button id="resetBtn" class="base-button mb-2 sm:mb-0">{{t.generator.reset_default}}</button>
+                <button id="generateBtn" class="hidden bg-theme text-white px-4 py-2 rounded hover:bg-theme-dark">{{t.generator.generate_favicons}}</button>
               </div>
               <div class="mt-6">
-                <h3 class="text-lg font-semibold mb-2 text-gray-700">{{t.generator.color_schemes}}</h3>
+                <h3 class="text-lg font-semibold mb-2 text-gray-700">{{t.generator.recommended_schemes}}</h3>
                 <div id="colorSchemes" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
                   <!-- Color schemes will be dynamically added here -->
                 </div>
@@ -336,23 +338,23 @@
                 <button id="downloadZip" class="base-button">{{t.generator.download_zip}}</button>
               </div>
               <p class="mt-4 text-sm text-gray-600">
-                {{t.generator.download_tip}}
+                {{t.generator.zip_contents}}
               </p>
               <p class="text-sm text-gray-700 mt-2 font-medium bg-yellow-100 p-2 rounded">
-                <span class="font-semibold">Tip:</span> {{t.generator.png_tip}}
+                <span class="font-semibold">Tip:</span> {{t.generator.tip_emoji}}
               </p>
               <p class="mt-2 text-sm text-gray-600 bg-gray-100 p-2 rounded">
-                {{t.generator.optimization_tip}} <a href="https://small.im" target="_blank" class="text-theme underline">https://small.im</a>
+                {{t.generator.png_optimization}} <a href="https://small.im" target="_blank" class="text-theme underline">https://small.im</a>
               </p>
             </div>
             <div class="bg-white rounded-lg border border-gray-200 p-4 sm:p-6 mt-6">
-              <h2 class="text-xl sm:text-2xl font-semibold mb-4 text-gray-700">{{t.generator.html_code}}</h2>
+              <h2 class="text-xl sm:text-2xl font-semibold mb-4 text-gray-700">{{t.generator.favicon_html}}</h2>
               <pre id="htmlCode" class="bg-gray-100 p-4 rounded overflow-x-auto text-sm"><code>&lt;link rel="icon" type="image/x-icon" sizes="16x16 32x32 48x48" href="favicon.ico"&gt;
 &lt;link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"&gt;
 &lt;link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"&gt;
 &lt;link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"&gt;</code></pre>
               <p class="mt-2 text-sm text-gray-600 bg-gray-100 p-2 rounded">
-                {{t.generator.favicon_test_tip}} <a href="https://favicon.im " target="_blank" class="text-theme underline">https://favicon.im</a>
+                {{t.generator.test_favicon}} <a href="https://favicon.im " target="_blank" class="text-theme underline">https://favicon.im</a>
               </p>
               <button id="copyHtmlCode" class="mt-4 base-button">{{t.generator.copy_html}}</button>
             </div>
@@ -375,19 +377,118 @@
         <h2 class="text-3xl sm:text-4xl font-semibold mb-6 text-center text-gray-900">{{t.features_section.title}}</h2>
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <div class="bg-white rounded-lg border border-gray-200 p-6">
-            <h3 class="text-xl font-semibold mb-2 text-gray-700">{{t.features_section.multiple_formats.title}}</h3>
-            <p class="text-gray-600">{{t.features_section.multiple_formats.description}}</p>
+            <h3 class="text-xl font-semibold mb-2 text-gray-700">{{t.features_section.multiple_formats}}</h3>
+            <p class="text-gray-600">{{t.features_section.multiple_formats_desc}}</p>
           </div>
           <div class="bg-white rounded-lg border border-gray-200 p-6">
-            <h3 class="text-xl font-semibold mb-2 text-gray-700">{{t.features_section.customization.title}}</h3>
-            <p class="text-gray-600">{{t.features_section.customization.description}}</p>
+            <h3 class="text-xl font-semibold mb-2 text-gray-700">{{t.features_section.customization}}</h3>
+            <p class="text-gray-600">{{t.features_section.customization_desc}}</p>
           </div>
           <div class="bg-white rounded-lg border border-gray-200 p-6">
-            <h3 class="text-xl font-semibold mb-2 text-gray-700">{{t.features_section.instant_preview.title}}</h3>
-            <p class="text-gray-600">{{t.features_section.instant_preview.description}}</p>
+            <h3 class="text-xl font-semibold mb-2 text-gray-700">{{t.features_section.instant_preview}}</h3>
+            <p class="text-gray-600">{{t.features_section.instant_preview_desc}}</p>
           </div>
         </div>
       </div>
+
+      <!-- Use Cases Section -->
+      <div class="mt-20">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl sm:text-4xl font-semibold mb-4 text-gray-900">{{t.use_cases.title}}</h2>
+          <p class="text-lg text-gray-600 max-w-3xl mx-auto">{{t.use_cases.subtitle}}</p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-white rounded-lg border border-gray-200 p-6 hover:shadow-lg transition-shadow duration-300">
+            <h3 class="text-xl font-semibold mb-3 text-gray-700">{{t.use_cases.startup}}</h3>
+            <p class="text-gray-600">{{t.use_cases.startup_desc}}</p>
+          </div>
+          <div class="bg-white rounded-lg border border-gray-200 p-6 hover:shadow-lg transition-shadow duration-300">
+            <h3 class="text-xl font-semibold mb-3 text-gray-700">{{t.use_cases.developers}}</h3>
+            <p class="text-gray-600">{{t.use_cases.developers_desc}}</p>
+          </div>
+          <div class="bg-white rounded-lg border border-gray-200 p-6 hover:shadow-lg transition-shadow duration-300">
+            <h3 class="text-xl font-semibold mb-3 text-gray-700">{{t.use_cases.small_business}}</h3>
+            <p class="text-gray-600">{{t.use_cases.small_business_desc}}</p>
+          </div>
+          <div class="bg-white rounded-lg border border-gray-200 p-6 hover:shadow-lg transition-shadow duration-300">
+            <h3 class="text-xl font-semibold mb-3 text-gray-700">{{t.use_cases.content_creators}}</h3>
+            <p class="text-gray-600">{{t.use_cases.content_creators_desc}}</p>
+          </div>
+          <div class="bg-white rounded-lg border border-gray-200 p-6 hover:shadow-lg transition-shadow duration-300">
+            <h3 class="text-xl font-semibold mb-3 text-gray-700">{{t.use_cases.agencies}}</h3>
+            <p class="text-gray-600">{{t.use_cases.agencies_desc}}</p>
+          </div>
+          <div class="bg-white rounded-lg border border-gray-200 p-6 hover:shadow-lg transition-shadow duration-300">
+            <h3 class="text-xl font-semibold mb-3 text-gray-700">{{t.use_cases.educators}}</h3>
+            <p class="text-gray-600">{{t.use_cases.educators_desc}}</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- How It Works Section -->
+      <div class="mt-20">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl sm:text-4xl font-semibold mb-4 text-gray-900">{{t.how_it_works.title}}</h2>
+          <p class="text-lg text-gray-600 max-w-3xl mx-auto">{{t.how_it_works.subtitle}}</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="text-center">
+            <div class="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+              <span class="text-2xl font-bold text-blue-600">1</span>
+            </div>
+            <h3 class="text-xl font-semibold mb-3 text-gray-700">{{t.how_it_works.step1}}</h3>
+            <p class="text-gray-600">{{t.how_it_works.step1_desc}}</p>
+          </div>
+          <div class="text-center">
+            <div class="bg-green-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+              <span class="text-2xl font-bold text-green-600">2</span>
+            </div>
+            <h3 class="text-xl font-semibold mb-3 text-gray-700">{{t.how_it_works.step2}}</h3>
+            <p class="text-gray-600">{{t.how_it_works.step2_desc}}</p>
+          </div>
+          <div class="text-center">
+            <div class="bg-purple-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
+              <span class="text-2xl font-bold text-purple-600">3</span>
+            </div>
+            <h3 class="text-xl font-semibold mb-3 text-gray-700">{{t.how_it_works.step3}}</h3>
+            <p class="text-gray-600">{{t.how_it_works.step3_desc}}</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Benefits Section -->
+      <div class="mt-20">
+        <div class="text-center mb-12">
+          <h2 class="text-3xl sm:text-4xl font-semibold mb-4 text-gray-900">{{t.benefits.title}}</h2>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-white rounded-lg border border-gray-200 p-6">
+            <h3 class="text-xl font-semibold mb-3 text-gray-700">{{t.benefits.no_signup}}</h3>
+            <p class="text-gray-600">{{t.benefits.no_signup_desc}}</p>
+          </div>
+          <div class="bg-white rounded-lg border border-gray-200 p-6">
+            <h3 class="text-xl font-semibold mb-3 text-gray-700">{{t.benefits.unlimited_use}}</h3>
+            <p class="text-gray-600">{{t.benefits.unlimited_use_desc}}</p>
+          </div>
+          <div class="bg-white rounded-lg border border-gray-200 p-6">
+            <h3 class="text-xl font-semibold mb-3 text-gray-700">{{t.benefits.commercial_use}}</h3>
+            <p class="text-gray-600">{{t.benefits.commercial_use_desc}}</p>
+          </div>
+          <div class="bg-white rounded-lg border border-gray-200 p-6">
+            <h3 class="text-xl font-semibold mb-3 text-gray-700">{{t.benefits.instant_results}}</h3>
+            <p class="text-gray-600">{{t.benefits.instant_results_desc}}</p>
+          </div>
+          <div class="bg-white rounded-lg border border-gray-200 p-6">
+            <h3 class="text-xl font-semibold mb-3 text-gray-700">{{t.benefits.all_formats}}</h3>
+            <p class="text-gray-600">{{t.benefits.all_formats_desc}}</p>
+          </div>
+          <div class="bg-white rounded-lg border border-gray-200 p-6">
+            <h3 class="text-xl font-semibold mb-3 text-gray-700">{{t.benefits.web_based}}</h3>
+            <p class="text-gray-600">{{t.benefits.web_based_desc}}</p>
+          </div>
+        </div>
+      </div>
+
       <div class="mt-16">
         <h2 class="text-3xl sm:text-4xl font-semibold mb-6 text-center text-gray-900">{{t.faq.title}}</h2>
         <div class="space-y-4" id="faq-accordion">

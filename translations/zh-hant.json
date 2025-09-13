@@ -61,6 +61,47 @@
     "instant_preview": "即時預覽",
     "instant_preview_desc": "調整設定時即時檢視Logo和網站圖示的變化"
   },
+  "use_cases": {
+    "title": "適用於每個專案",
+    "subtitle": "無論您是在建立初創企業、啟動副業專案還是重新設計品牌，Logo.surf都能滿足您的需求",
+    "startup": "初創企業與創業者",
+    "startup_desc": "在預算有限的情況下創建專業品牌形象。快速為MVP、登陸頁面和推介材料生成Logo和網站圖示，無需聘請昂貴的設計師。",
+    "developers": "開發者與設計師",
+    "developers_desc": "非常適合需要為專案、原型或客戶工作快速製作網站圖示的開發者。幾分鐘內生成一致的品牌資源。",
+    "small_business": "小型企業",
+    "small_business_desc": "透過專業的Logo和網站圖示建立您的線上形象。完美適用於本地企業、電商店舖和服務提供商。",
+    "content_creators": "內容創作者",
+    "content_creators_desc": "在社群媒體、YouTube和部落格上脫穎而出。為所有數位平台創建一致的品牌形象。",
+    "agencies": "代理機構與自由工作者",
+    "agencies_desc": "為客戶提供快速品牌解決方案。生成多個Logo概念和網站圖示套裝，用於簡報和客戶審批。",
+    "educators": "教育工作者與學生",
+    "educators_desc": "為學校專案、教育網站或學術簡報創建Logo。非常適合學習設計原理和品牌基礎知識。"
+  },
+  "how_it_works": {
+    "title": "運作原理",
+    "subtitle": "只需三個簡單步驟即可創建專業的Logo和網站圖示",
+    "step1": "輸入文字",
+    "step1_desc": "輸入您的品牌名稱、公司名稱或任何您想轉換為Logo的文字。支援表情符號和特殊字元。",
+    "step2": "自訂設計",
+    "step2_desc": "從各種字體中選擇，調整顏色，設定背景樣式，微調位置，完美符合您的品牌風格。",
+    "step3": "下載檔案",
+    "step3_desc": "一鍵獲取多種格式的Logo（PNG、SVG）以及適用於所有裝置和瀏覽器的完整網站圖示套件。"
+  },
+  "benefits": {
+    "title": "為什麼選擇Logo.surf",
+    "no_signup": "無需註冊",
+    "no_signup_desc": "無需建立帳戶或提供個人資訊即可立即開始創建。保護您的隱私。",
+    "unlimited_use": "無限下載",
+    "unlimited_use_desc": "生成和下載任意數量的Logo和網站圖示。沒有限制，沒有約束，完全免費。",
+    "commercial_use": "商業授權",
+    "commercial_use_desc": "您生成的Logo和網站圖示可用於任何商業目的。完美適用於企業、初創公司和客戶專案。",
+    "instant_results": "即時結果",
+    "instant_results_desc": "無需等待，無處理時間。即時檢視Logo預覽，滿意後立即下載。",
+    "all_formats": "完整套裝",
+    "all_formats_desc": "獲得您需要的一切：多種尺寸的PNG Logo、SVG向量圖和適用於所有瀏覽器的完整網站圖示套件。",
+    "web_based": "隨處可用",
+    "web_based_desc": "無需安裝軟體。在任何有網路瀏覽器的裝置上使用——桌面、平板或手機。"
+  },
   "faq": {
     "title": "常見問題",
     "what_is_logosurf": "什麼是Logo.surf？",

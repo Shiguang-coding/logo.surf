@@ -61,6 +61,47 @@
     "instant_preview": "Directe Preview",
     "instant_preview_desc": "Zie veranderingen in uw logo en favicon in realtime terwijl u de instellingen aanpast"
   },
+  "use_cases": {
+    "title": "Perfect voor Elk Project",
+    "subtitle": "Of je nu een startup bouwt, een zijproject lanceert of je merk hervormt, Logo.surf heeft je gedekt",
+    "startup": "Startups & Ondernemers",
+    "startup_desc": "Creëer professionele branding met een beperkt budget. Genereer snel logo's en favicons voor MVP's, landingspagina's en presentaties zonder dure ontwerpers in te huren.",
+    "developers": "Ontwikkelaars & Ontwerpers",
+    "developers_desc": "Perfect voor ontwikkelaars die snelle favicons nodig hebben voor projecten, prototypes of klantwerk. Genereer consistente merkassets in minuten.",
+    "small_business": "Kleine Bedrijven",
+    "small_business_desc": "Vestig je online aanwezigheid met professionele logo's en favicons. Perfect voor lokale bedrijven, e-commercewinkels en dienstverleners.",
+    "content_creators": "Content Creators",
+    "content_creators_desc": "Val op in sociale media, YouTube en blogs met aangepaste logo's. Creëer consistente branding op al je digitale platforms.",
+    "agencies": "Bureaus & Freelancers",
+    "agencies_desc": "Lever snelle brandingoplossingen aan klanten. Genereer meerdere logoconcepten en faviconsets voor presentaties en klantgoedkeuring.",
+    "educators": "Docenten & Studenten",
+    "educators_desc": "Creëer logo's voor schoolprojecten, educatieve websites of academische presentaties. Perfect voor het leren van ontwerpprincipes en brandingbasisprincipes."
+  },
+  "how_it_works": {
+    "title": "Hoe Het Werkt",
+    "subtitle": "Creëer professionele logo's en favicons in slechts drie eenvoudige stappen",
+    "step1": "Voer Je Tekst In",
+    "step1_desc": "Typ je merknaam, bedrijfsnaam of elke tekst die je wilt omzetten naar een logo. Emoji's en speciale tekens worden ondersteund.",
+    "step2": "Pas Het Ontwerp Aan",
+    "step2_desc": "Kies uit verschillende lettertypen, pas kleuren aan, stel achtergrondstijlen in en verfijn de positionering om perfect bij je merk te passen.",
+    "step3": "Download Bestanden",
+    "step3_desc": "Krijg je logo in meerdere formaten (PNG, SVG) en complete faviconpakketten voor alle apparaten en browsers met één klik."
+  },
+  "benefits": {
+    "title": "Waarom Kiezen voor Logo.surf",
+    "no_signup": "Geen Registratie Vereist",
+    "no_signup_desc": "Begin direct met creëren zonder accounts aan te maken of persoonlijke informatie te verstrekken. Je privacy is beschermd.",
+    "unlimited_use": "Onbeperkte Downloads",
+    "unlimited_use_desc": "Genereer en download zoveel logo's en favicons als je nodig hebt. Geen limieten, geen beperkingen, volledig gratis.",
+    "commercial_use": "Commerciële Licentie",
+    "commercial_use_desc": "Gebruik je gegenereerde logo's en favicons voor elk commercieel doel. Perfect voor bedrijven, startups en klantprojecten.",
+    "instant_results": "Directe Resultaten",
+    "instant_results_desc": "Geen wachten, geen verwerkingstijd. Bekijk je logovoorvertoning in real-time en download direct wanneer je tevreden bent.",
+    "all_formats": "Compleet Pakket",
+    "all_formats_desc": "Krijg alles wat je nodig hebt: PNG-logo's in meerdere groottes, SVG-vectoren en complete faviconpakketten voor alle browsers.",
+    "web_based": "Werkt Overal",
+    "web_based_desc": "Geen software-installatie vereist. Werkt op elk apparaat met een webbrowser - desktop, tablet of mobiel."
+  },
   "faq": {
     "title": "Veelgestelde Vragen",
     "what_is_logosurf": "Wat is Logo.surf?",

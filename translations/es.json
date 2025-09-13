@@ -61,6 +61,47 @@
     "instant_preview": "Vista Previa Instantánea",
     "instant_preview_desc": "Ve los cambios en tu logo y favicon en tiempo real mientras ajustas la configuración"
   },
+  "use_cases": {
+    "title": "Perfecto para Cada Proyecto",
+    "subtitle": "Ya sea que estés construyendo una startup, lanzando un proyecto paralelo o rediseñando tu marca, Logo.surf te tiene cubierto",
+    "startup": "Startups y Emprendedores",
+    "startup_desc": "Crea branding profesional con un presupuesto limitado. Genera logos y favicons rápidamente para MVPs, páginas de aterrizaje y presentaciones sin contratar diseñadores costosos.",
+    "developers": "Desarrolladores y Diseñadores",
+    "developers_desc": "Perfecto para desarrolladores que necesitan favicons rápidos para proyectos, prototipos o trabajo de clientes. Genera activos de marca consistentes en minutos.",
+    "small_business": "Pequeñas Empresas",
+    "small_business_desc": "Establece tu presencia online con logos y favicons profesionales. Perfecto para negocios locales, tiendas de comercio electrónico y proveedores de servicios.",
+    "content_creators": "Creadores de Contenido",
+    "content_creators_desc": "Destaca en redes sociales, YouTube y blogs con logos personalizados. Crea branding consistente en todas tus plataformas digitales.",
+    "agencies": "Agencias y Freelancers",
+    "agencies_desc": "Entrega soluciones de branding rápidas a clientes. Genera múltiples conceptos de logos y conjuntos de favicons para presentaciones y aprobación de clientes.",
+    "educators": "Educadores y Estudiantes",
+    "educators_desc": "Crea logos para proyectos escolares, sitios web educativos o presentaciones académicas. Perfecto para aprender principios de diseño y conceptos básicos de branding."
+  },
+  "how_it_works": {
+    "title": "Cómo Funciona",
+    "subtitle": "Crea logos y favicons profesionales en solo tres simples pasos",
+    "step1": "Ingresa tu Texto",
+    "step1_desc": "Escribe el nombre de tu marca, nombre de empresa o cualquier texto que quieras convertir en logo. Se admiten emojis y caracteres especiales.",
+    "step2": "Personaliza el Diseño",
+    "step2_desc": "Elige entre varias fuentes, ajusta colores, establece estilos de fondo y ajusta el posicionamiento para que coincida perfectamente con tu marca.",
+    "step3": "Descarga Archivos",
+    "step3_desc": "Obtén tu logo en múltiples formatos (PNG, SVG) y paquetes completos de favicons para todos los dispositivos y navegadores en un clic."
+  },
+  "benefits": {
+    "title": "Por Qué Elegir Logo.surf",
+    "no_signup": "Sin Registro Requerido",
+    "no_signup_desc": "Comienza a crear inmediatamente sin crear cuentas o proporcionar información personal. Tu privacidad está protegida.",
+    "unlimited_use": "Descargas Ilimitadas",
+    "unlimited_use_desc": "Genera y descarga tantos logos y favicons como necesites. Sin límites, sin restricciones, completamente gratis.",
+    "commercial_use": "Licencia Comercial",
+    "commercial_use_desc": "Usa tus logos y favicons generados para cualquier propósito comercial. Perfecto para negocios, startups y proyectos de clientes.",
+    "instant_results": "Resultados Instantáneos",
+    "instant_results_desc": "Sin esperas, sin tiempo de procesamiento. Ve la vista previa de tu logo en tiempo real y descarga inmediatamente cuando estés satisfecho.",
+    "all_formats": "Paquete Completo",
+    "all_formats_desc": "Obtén todo lo que necesitas: logos PNG en múltiples tamaños, vectores SVG y paquetes completos de favicons para todos los navegadores.",
+    "web_based": "Funciona en Todas Partes",
+    "web_based_desc": "No se requiere instalación de software. Funciona en cualquier dispositivo con navegador web - escritorio, tablet o móvil."
+  },
   "faq": {
     "title": "Preguntas Frecuentes",
     "what_is_logosurf": "¿Qué es Logo.surf?",
