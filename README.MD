@@ -1,12 +1,8 @@
 [English](README.en.md) | 中文
 
-## 二次开发内容
-
-- **Vercel 部署支持**: 添加 `vercel.json` 配置文件，指定输出目录为 `dist/`
-- **相对路径 URL**: 将 `baseUrl` 改为空字符串，所有 URL 使用相对路径，可部署到任意域名
-- **浏览器语言自动检测**: 访问根路径时自动检测 `navigator.language` 并跳转对应语言版本
-
 # Logo.surf - 文字生成 Logo 和 Favicon
+
+> **基于 [airyland/logo.surf](https://github.com/airyland/logo.surf) 二次开发**
 
 [![Logo.surf 预览](./assets/logo.surf.preview.png)](https://logo.shiguang666.eu.org)
 
@@ -14,6 +10,12 @@
 
 
 Logo.surf 是一个免费、易于使用的工具，可以快速将文字转换为专业的 Logo 和 Favicon。非常适合开发者、设计师以及任何需要创建简洁高效品牌标识的人。
+
+## 二次开发内容
+
+- **Vercel 部署支持**: 添加 `vercel.json` 配置文件，指定输出目录为 `dist/`
+- **相对路径 URL**: 将 `baseUrl` 改为空字符串，所有 URL 使用相对路径，可部署到任意域名
+- **浏览器语言自动检测**: 访问根路径时自动检测 `navigator.language` 并跳转对应语言版本
 
 ## 功能特点
 

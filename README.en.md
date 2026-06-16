@@ -1,18 +1,20 @@
 English | [中文](README.md)
 
-## Secondary Development
-
-- **Vercel Deployment Support**: Added `vercel.json` configuration file to set output directory to `dist/`
-- **Relative URL Paths**: Changed `baseUrl` to empty string so all URLs use relative paths, deployable to any domain
-- **Browser Language Auto-Detection**: Automatically detects `navigator.language` and redirects to the corresponding language version when visiting root path
-
 # Logo.surf - Text to Logo & Favicon Generator
+
+> **Secondary development based on [airyland/logo.surf](https://github.com/airyland/logo.surf)**
 
 [![Logo.surf Preview](./assets/logo.surf.preview.png)](https://logo.shiguang666.eu.org)
 
 [Visit Logo.surf](https://logo.shiguang666.eu.org)
 
 Logo.surf is a free, user-friendly tool that allows you to quickly generate professional logos and favicons from text. Perfect for developers, designers, and anyone looking to create a simple yet effective brand identity.
+
+## Secondary Development
+
+- **Vercel Deployment Support**: Added `vercel.json` configuration file to set output directory to `dist/`
+- **Relative URL Paths**: Changed `baseUrl` to empty string so all URLs use relative paths, deployable to any domain
+- **Browser Language Auto-Detection**: Automatically detects `navigator.language` and redirects to the corresponding language version when visiting root path
 
 ## Features
 
