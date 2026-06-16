@@ -4,7 +4,7 @@ const Handlebars = require('handlebars');
 
 // Configuration
 const config = {
-  baseUrl: 'https://www.logo.surf',
+  baseUrl: '',
   supportedLanguages: {
     'en': { name: 'English', dir: 'ltr' },
     'zh-hans': { name: '简体中文', dir: 'ltr' },

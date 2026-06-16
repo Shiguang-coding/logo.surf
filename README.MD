@@ -1,79 +1,92 @@
-# Logo.surf - Text to Logo & Favicon Generator
+[English](README.en.md) | 中文
 
-[![Logo.surf Preview](./assets/logo.surf.preview.png)](https://www.logo.surf)
+## 二次开发内容
 
-[Visit Logo.surf](https://www.logo.surf)
+- **Vercel 部署支持**: 添加 `vercel.json` 配置文件，指定输出目录为 `dist/`
+- **相对路径 URL**: 将 `baseUrl` 改为空字符串，所有 URL 使用相对路径，可部署到任意域名
+- **浏览器语言自动检测**: 访问根路径时自动检测 `navigator.language` 并跳转对应语言版本
 
-> **Note**: This project is primarily developed using AI-generated code. While this approach allows for rapid development and innovative solutions, we encourage users and contributors to review and validate the code as needed.
+# Logo.surf - 文字生成 Logo 和 Favicon
 
-Logo.surf is a free, user-friendly tool that allows you to quickly generate professional logos and favicons from text. Perfect for developers, designers, and anyone looking to create a simple yet effective brand identity.
+[![Logo.surf 预览](./assets/logo.surf.preview.png)](https://logo.shiguang666.eu.org)
 
-## Features
+[访问 Logo.surf](https://logo.shiguang666.eu.org)
 
-- **Text-to-Logo Generation**: Create logos and favicons by simply entering your text.
-- **Customization Options**: Adjust colors, fonts, sizes, and more to perfect your design.
-- **Multiple Format Support**: Download your logo in various formats including PNG, SVG, and ICO.
-- **Real-time Preview**: See changes to your logo in real-time as you make adjustments.
-- **Completely Free**: All features are available at no cost.
-- **No Account Required**: Start creating immediately without signing up.
 
-## How to Use
+Logo.surf 是一个免费、易于使用的工具，可以快速将文字转换为专业的 Logo 和 Favicon。非常适合开发者、设计师以及任何需要创建简洁高效品牌标识的人。
 
-1. Visit [Logo.surf](https://www.logo.surf)
-2. Enter your desired text in the input field.
-3. Customize your logo using the available options (color, font, size, etc.).
-4. Preview your logo in real-time.
-5. Once satisfied, download your logo in your preferred format.
+## 功能特点
 
-## Related Products
+- **文字转 Logo**：只需输入文字即可创建 Logo 和 Favicon
+- **自定义选项**：调整颜色、字体、大小等以完善您的设计
+- **多格式支持**：支持下载 PNG、SVG、ICO 等多种格式
+- **实时预览**：调整时可实时查看 Logo 变化
+- **完全免费**：所有功能均可免费使用
+- **无需注册**：无需注册账号即可开始使用
+- **多语言支持**：支持 16 种语言，自动检测浏览器语言并跳转对应版本
+- **相对 URL**：可部署到任何域名，无需额外配置
 
-Check out our other tools and services:
+## 使用方法
 
-- [QRCode.fun](https://qrcode.fun) - Free QR Code Generator
-- [EmojiSpark](https://emojispark.com) - AI Emoji Finder
-- [PDF.dance](https://www.pdfdance.com) - All-in-one PDF toolkit
-- [Awesome Flux AI](https://www.awesomefluxai.com) - Awesome Flux AI resources
-- [DNS.fish](https://dns.fish) - Domain DNS lookup 
-- [IP.network](https://www.ip.network) - IP address information and tools
-- [Favicon.im](https://Favicon.im) - Grab Favicon of any website
-- [Small.im](https://Small.im) - Image comperssor and converter
-- [Base64.sh](https://www.base64.sh) - Base64 encoder and decoder
-- [Query.domains](https://Query.domains) - Domain availability checker and whois lookup
-- [RedirectCheck](https://www.redirectcheck.org) - URL redirect checker
+1. 访问 [Logo.surf](https://logo.shiguang666.eu.org)
+2. 在输入框中输入您想要的文字
+3. 使用可用选项自定义您的 Logo（颜色、字体、大小等）
+4. 实时预览您的 Logo
+5. 满意后，选择您喜欢的格式下载
 
-## Contributing
+## 部署到 Vercel
 
-We welcome contributions to Logo.surf! If you'd like to contribute, please follow these steps:
+1. 将 GitHub 仓库连接到 Vercel
+2. 项目会自动构建并部署
+3. 构建配置已通过 `vercel.json` 设置输出目录为 `dist/`
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+```json
+{
+  "outputDirectory": "dist"
+}
+```
 
-Please make sure to update tests as appropriate and adhere to the project's coding standards.
+## 国际化
 
-## License
+- 支持 16 种语言
+- 自动检测浏览器语言并跳转对应版本
+- 用户可通过页面右上角语言切换器手动切换
 
-This project is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License - see the [LICENSE](LICENSE) file for details.
+## 相关产品
 
-Key points:
-- You can use, share, and adapt this work for non-commercial purposes.
-- You must provide attribution and include a link to the original repository.
-- Commercial use is prohibited.
+查看我们的其他工具和服务：
 
-For more information, visit: https://creativecommons.org/licenses/by-nc/4.0/
+- [QRCode.fun](https://qrcode.fun) - 免费二维码生成器
+- [EmojiSpark](https://emojispark.com) - AI 表情符号查找器
+- [PDF.dance](https://www.pdfdance.com) - 全能 PDF 工具包
+- [Awesome Flux AI](https://www.awesomefluxai.com) - Awesome Flux AI 资源
+- [DNS.fish](https://dns.fish) - 域名 DNS 查询
+- [IP.network](https://www.ip.network) - IP 地址信息和工具
+- [Favicon.im](https://Favicon.im) - 获取任意网站的 Favicon
+- [Small.im](https://Small.im) - 图片压缩和转换
+- [Base64.sh](https://www.base64.sh) - Base64 编码和解码
+- [Query.domains](https://Query.domains) - 域名可用性检查和 WHOIS 查询
+- [RedirectCheck](https://www.redirectcheck.org) - URL 重定向检查
 
-## Follow Us
+## 贡献
 
-Stay updated with our latest news and updates:
+欢迎为 Logo.surf 做出贡献！如果您想参与贡献，请按以下步骤操作：
 
-[![Follow us on X](https://img.shields.io/twitter/follow/we_webmaster?style=social)](https://x.com/we_webmaster)
+1. Fork 仓库
+2. 创建您的功能分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交您的更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 创建 Pull Request
 
-## Contact
+请确保更新测试并遵守项目的编码标准。
 
-If you have any questions, feel free to reach out or open an issue in the repository.
+## 许可证
 
----
+本项目采用知识共享署名-非商业性使用 4.0 国际许可协议，详情请查看 [LICENSE](LICENSE) 文件。
 
-Made with ❤️ by Webmaster.Studio
+要点：
+- 您可以出于非商业目的使用、分享和改编本作品
+- 您必须提供出处并包含原始仓库的链接
+- 禁止商业使用
+
+更多信息请访问：https://creativecommons.org/licenses/by-nc/4.0/

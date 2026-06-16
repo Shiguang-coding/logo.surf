@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="{{lang}}" {{#if isRtl}}dir="rtl"{{/if}}>
   <head>
+    <script>
+      (function(){
+        if (location.pathname !== '/') return;
+        var lang = (navigator.language || navigator.userLanguage || '').toLowerCase();
+        var map = {'zh-cn':'zh-CN','zh-tw':'zh-TW','zh':'zh-CN','es':'es','fr':'fr','de':'de','ja':'ja','ko':'ko','pt':'pt','ru':'ru','ar':'ar','it':'it','nl':'nl','pl':'pl','tr':'tr','hi':'hi'};
+        var target = map[lang] || map[lang.split('-')[0]];
+        if (target && target !== 'en') { location.replace('/' + target + '/'); }
+      })();
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{t.meta.title}}</title>
@@ -19,13 +28,13 @@
     <meta property="og:description" content="{{t.meta.description}}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="{{canonicalUrl}}">
-    <meta property="og:image" content="https://www.logo.surf/favicon-512x512.png">
+    <meta property="og:image" content="https://logo.shiguang666.eu.org/favicon-512x512.png">
     
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{t.meta.title}}">
     <meta name="twitter:description" content="{{t.meta.description}}">
-    <meta name="twitter:image" content="https://www.logo.surf/favicon-512x512.png">
+    <meta name="twitter:image" content="https://logo.shiguang666.eu.org/favicon-512x512.png">
     <meta name="twitter:creator" content="@we_webmaster">
     
     <script src="https://cdn.tailwindcss.com"></script>
